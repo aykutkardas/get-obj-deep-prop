@@ -1,0 +1,25 @@
+{
+  "name": "get-obj-deep-prop",
+  "version": "1.0.0",
+  "description": "Check and get object prop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aykutkardas/get-obj-deep-prop.git"
+  },
+  "keywords": [
+    "Object",
+    "Javascript",
+    "Node",
+    "JSON"
+  ],
+  "author": "Aykut Kardaş",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aykutkardas/get-obj-deep-prop/issues"
+  },
+  "homepage": "https://github.com/aykutkardas/get-obj-deep-prop#readme"
+}
