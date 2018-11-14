@@ -1,6 +1,6 @@
 {
   "name": "get-obj-deep-prop",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Check and get object prop.",
   "main": "index.js",
   "scripts": {
