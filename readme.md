@@ -14,11 +14,17 @@ yarn add get-obj-deep-prop
 
 ## Usage
 
+#### Schema
+
+```
+getObjDeepProp([ object, [ props, [ defaultValue]])
+```
+
+### Example
+
 ```js
 import getObjDeepProp from "get-obj-deep-prop";
 ```
-
-Example Object
 
 ```js
 const userObj = {
@@ -42,7 +48,7 @@ const userFacebookUsername = getObjDeepProp(
   "user.information.social.facebook"
 );
 
-console.log(userFacebookUsername); // johhnn
+console.log(userFacebookUsername); // "johhnn"
 ```
 
 ---
@@ -97,4 +103,15 @@ const userFacebookUsername = getObjDeepProp(
   "user.information.social.facebook"
 );
 console.log(userFacebookUsername); // false
+```
+
+#### Default Value
+
+```js
+const userFacebookUsername = getObjDeepProp(
+  userObj,
+  "user.information.social.facebook",
+  "Anonim"
+);
+console.log(userFacebookUsername); // "Anonim"
 ```
